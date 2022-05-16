@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.card-container{
+    padding: 10px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+}
+
+.nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #F55A5A;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+h1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+ 
+
+}
+
+.globe-icon{
+    fill: #fff;
+    margin-right: 5px
+}
+
+
+.destination-photo{
+    width: 155px;
+    height: 100%;
+    border-radius: 5px;
+    margin-left: 30px;
+   
+}
+
+.location-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.location-icon{
+    fill: #F55A5A;
+    width: 9px;
+    height: 11.55px;
+}
+
+.country-name{
+    font-weight: 600;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+}
+
+.google-link{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #918E9B;
+    margin-left: 7px;
+}
+
+.google-link a{
+    text-decoration: none;
+}
+
+p, h3{
+    color: #2B283A;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 15px;
+}
+
+.dates{
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+}
+
+.description, .dates{
+    margin: 0 40px 10px 20px;
+}
+
+.description{
+    font-weight: 500;
+    font-size: 10.24px;
+    line-height: 15px;
+ 
+}
+
+.country-details{
+    display: flex;
+    flex-direction: column;
+}
